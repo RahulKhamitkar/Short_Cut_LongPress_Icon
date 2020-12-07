@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <shortcut
+        android:enabled="true"
+        android:icon= "@mipmap/ic_claim"
+        android:shortcutId="claim"
+        android:shortcutLongLabel="@string/claim"
+        android:shortcutShortLabel="@string/claim">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.rahul.shortcut.ClaimActivity"
+            android:targetPackage="com.rahul.shortcut" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon= "@mipmap/ic_card"
+        android:shortcutId="id_card"
+        android:shortcutLongLabel="@string/id_card"
+        android:shortcutShortLabel="@string/id_card">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.rahul.shortcut.IdCardActivity"
+            android:targetPackage="com.rahul.shortcut" />
+    </shortcut>
+</shortcuts>
